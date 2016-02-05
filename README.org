@@ -1,0 +1,22 @@
+#+TITLE: docker-awscli
+
+#+LATEX: \pagebreak
+
+* Overview
+
+Self-contained version of `awscli`
+
+* COMMENT Usage
+
+To pass credentials through into the environment and run a command:
+#+BEGIN_SRC shell
+  docker run --env AWS_ACCESS_KEY_ID=$AWS_ACCESS_KEY_ID --env AWS_SECRET_ACCESS_KEY=$AWS_SECRET_ACCESS_KEY colstrom/awscli
+#+END_SRC
+
+* License
+
+[MIT](https://tldrlegal.com/license/mit-license)
+
+* Contributors
+
+- [Chris Olstrom](https://colstrom.github.io/) | [e-mail](mailto:chris@olstrom.com) | [Twitter](https://twitter.com/ChrisOlstrom)
